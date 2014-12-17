@@ -38,9 +38,9 @@ if (PHP_INT_SIZE == 4 && (substr(ini_get('memory_limit'), 0, -1) < "64")) {
  * Database connection options
  */
 $config['db_host'] = 'localhost';
-$config['db_name'] = 'auginov_ga';
-$config['db_user'] = 'auginov';
-$config['db_password'] = 'auginov';
+$config['db_name'] = 'cscart_ga';
+$config['db_user'] = 'root';
+$config['db_password'] = '';
 
 $config['database_backend'] = 'mysqli';
 
@@ -62,11 +62,11 @@ $config['table_prefix'] = 'cscart_';
  */
 
 // Host and directory where software is installed on no-secure server
-$config['http_host'] = 'auginov.simtechdev.net';
+$config['http_host'] = 'localhost';
 $config['http_path'] = '/ga';
 
 // Host and directory where software is installed on secure server
-$config['https_host'] = 'auginov.simtechdev.net';
+$config['https_host'] = 'localhost';
 $config['https_path'] = '/ga';
 
 /*
