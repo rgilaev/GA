@@ -1,0 +1,36 @@
+/* ==========================================================================
+Wishlist Responsive
+========================================================================== */
+
+/* Responsive: Tablet and phone
+========================================================================== */
+
+@media (max-width: 979px) {
+    .ty-product-empty {
+        display: none;
+    }
+    .ty-wishlist__empty-list li .ty-product-empty {
+        display: none;
+    }
+    .ty-wishlist__empty-list li:first-child {
+        width: 100%;
+    }
+    .ty-wishlist__empty-list li:first-child .ty-product-empty {
+        display: block;
+    }
+}
+
+/* Responsive: Landscape phone to desktop/tablet
+========================================================================== */
+
+@media (max-width: 767px) {
+    .wish-list-btn .ty-btn {
+        display: table;
+        margin: 5px auto;
+    }
+    .wish-list-btn .ty-btn + .ty-btn {
+        margin-left: auto;
+    }
+
+}
+/* /wishlist responsive*/

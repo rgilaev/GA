@@ -1,0 +1,62 @@
+<?xml version="1.0"?>
+<addon scheme="2.0">
+    <id>google_tag_manager</id>
+    <name>Google Tag Manager</name>
+    <description></description>
+    <version>1.0</version>
+    <priority>2000</priority>
+    <position>230</position>
+    <default_language>en</default_language>
+    <auto_install>MULTIVENDOR,ULTIMATE</auto_install>
+    <compatibility>
+       <conflicts>google_analytics</conflicts>
+   </compatibility>
+    <settings edition_type="ROOT,ULT:VENDOR">
+        <sections>
+            <section id="general">
+                <name>General</name>
+                <items>
+                    <item id="tracking_id">
+                        <name>Google Tag Manager container ID</name>
+                        <type>input</type>
+                    </item>
+                    <item id="tracking_code">
+                        <name>Google Analytics account number</name>
+                        <type>input</type>
+                        <translations>
+                            <item lang="es">Código de seguimiento</item>
+                            <item lang="fr">Tracking code</item>
+                            <item lang="da">Google Analytics-kontonummer</item>
+                            <item lang="el">Αριθμός λογαριασμού Google Analytics</item>
+                            <item lang="ro">Numărul de cont al contului Google Analytics</item>
+                            <item lang="ru">Номер учетной записи Google Analytics</item>
+                            <item lang="sl">Številka Google Analytics računa</item>
+                            <item lang="zh">谷歌分析帐户号码</item>
+                        </translations>
+                    </item>
+                    <item id="track_ecommerce">
+                        <name>Track e-commerce transactions</name>
+                        <type>checkbox</type>
+                        <default_value>Y</default_value>
+                        <translations>
+                            <item lang="es">Rastrear transacciones de e-commerce</item>
+                            <item lang="da">spore e-handelstransaktioner</item>
+                            <item lang="el">Παρακολούθηση  των συναλλαγών ηλεκτρονικού εμπορίου</item>
+                            <item lang="ro">Urmărește și tranzacții electronice</item>
+                            <item lang="ru">Отслеживать продажи</item>
+                            <item lang="sl">Sled transakcije e-poslovanja</item>
+                            <item lang="zh">跟踪电子商务交易</item>
+                        </translations>
+                    </item>
+                    <item id="brand_id">
+                        <name>Select the "Brand" feature</name>
+                        <type>selectbox</type>
+                    </item>
+                </items>
+            </section>
+        </sections>
+    </settings>
+	<language_variables>
+		<item id="google_analytics_refund" lang="en">Use this order status as a 'refund' for Google Analytics</item>
+	</language_variables>
+</addon>

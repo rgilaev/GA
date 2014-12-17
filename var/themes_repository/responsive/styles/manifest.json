@@ -1,0 +1,9 @@
+{
+    "default_style": "responsive",
+    "names": {
+        "responsive": "Responsive"
+    },
+    "default": {
+        "responsive": true
+    }
+}
